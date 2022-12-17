@@ -12,9 +12,10 @@ http.createServer((req, res)=> {
     // res.end("Hello World Finally!");
     console.log(req.url);
     const pathname = url.parse(req.url).pathname;
+    console.log(pathname)
     if(pathname === "/") {
         console.log(req.method)
-        res.end("This is home page")
+        res.end("This is home page1")
     }
     else if(pathname === "/users") {
         console.log(req.method)

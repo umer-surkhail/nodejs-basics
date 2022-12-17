@@ -1,0 +1,27 @@
+1- Read File (Core NodeJS):
+Create Read Stream to get file from the server
+- Restrict file types to only png and jpg and zip
+- restrict files only from the images directory
+- retrun content type with specific to the file type.
+- the file should be returned, even I add the query string at the end of the file.
+
+2- Staff Management (In ExpressJS):
+2.1 - Create Staff:
+- Define a route to create a Staff Member. The method should be POST with urlencoded format data sent.
+- The Data should be stored in a global array of Staffs.
+- Define a unique id for every Staff Member, using the package https://www.npmjs.com/package/randomatic
+
+2.2 - Fetch all Staff Members:
+- Create a GET API to fetch all the staff members stored in the array Staff.
+
+2.2 - Fetch Particular Staff Member:
+- Create a GET API to fetch the staff members provided by the ID of the staff member.
+- Pass the id as the route param. Do not use the body or query to send the staff member id.
+
+3.3 - Update Staff Member
+- Create a PUT API to update the staff's data. In this API allow updating the image of the staff, as well.
+- On upload of a file, assign a random and unique name to the file.
+
+3.4 - Delete Staff
+- Create an API to delete the staff members provided by the ID of the staff member.
+- Pass the id as the route param. Do not use the body or query to send the staff member id.
