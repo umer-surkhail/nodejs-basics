@@ -1,2 +1,2 @@
-# Lecture content for the NodeJS and ExpressJS
+# Lecture content forNodeJS and ExpressJS
 This repo contains the basics of NodeJS and ExpressJS.
