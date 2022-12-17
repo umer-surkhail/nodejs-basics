@@ -1,2 +1,2 @@
-# NodeJS Basics Discussed in Class
-This repo contains the basics of NodeJS that we discussed in class and did the lab for.
+# Lecture content for the NodeJS and ExpressJS
+This repo contains the basics of NodeJS and ExpressJS.
