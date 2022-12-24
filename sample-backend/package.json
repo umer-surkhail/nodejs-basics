@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-backend",
+  "version": "1.0.0",
+  "description": "NodeJs Backend",
+  "author": "ArhamSoft",
+  "main": "src/index.js",
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=8",
+    "yarn": "*"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=production pm2 start ./src/index.js -i max",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3"
+  }
+}
