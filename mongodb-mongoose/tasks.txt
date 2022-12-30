@@ -1,0 +1,7 @@
+Create APIs to impelement the following features:
+
+- Create user.
+- A user can send friend request to other users.
+- A user can see all the friend requests it has received.
+- A user can accept any friend request. 
+- List all friends of a user

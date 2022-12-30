@@ -1,0 +1,25 @@
+//switch to a database, if it exists it will be switched, otherwise will be created and switched
+mongo
+
+show dbs;
+
+use DATABASE_NAME;
+
+db;
+
+show collections;
+
+db.createCollection("COLLECTION_NAME");
+
+db.dropDatabase();
+
+
+db.createCollection("COLLECTION_NAME", {capped: true});
+
+db.createCollection("COLLECTION_NAME", {capped: true, size: 1024, autoIndexId: true, max: 1000});
+
+db.COLLECTION_NAME.insert({});
+
+
+db.COLLECTION_NAME.drop();
+
